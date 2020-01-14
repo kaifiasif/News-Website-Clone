@@ -3,7 +3,7 @@ class Navbar extends Component {
     state = {}
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a className="navbar-brand" href="#">BBC</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon" />
@@ -14,27 +14,43 @@ class Navbar extends Component {
                             <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Link</a>
+                            <a className="nav-link" href="#">News</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Sports</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Reel</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Worklife</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Travel</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Future</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Culture</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
+                                More
         </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#">Action</a>
-                                <a className="dropdown-item" href="#">Another action</a>
+                                <a className="dropdown-item" href="#">Music</a>
+                                <a className="dropdown-item" href="#">TV</a>
                                 <div className="dropdown-divider" />
-                                <a className="dropdown-item" href="#">Something else here</a>
+                                <a className="dropdown-item" href="#">Weather</a>
                             </div>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" href="#" tabIndex={-1} aria-disabled="true">Disabled</a>
-                        </li>
+
                     </ul>
-                    <form className="form-inline my-2 my-lg-0">
+                    {/* <form className="form-inline my-2 my-lg-0">
                         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                    </form> */}
                 </div>
             </nav>
         );
