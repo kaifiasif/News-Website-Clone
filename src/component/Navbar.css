@@ -1,0 +1,91 @@
+/* Navbar */
+.sideArrow {
+  border-right: 1px solid #ccc;
+  font-family: Poppins;
+  /* border-bottom: 3px solid red; */
+  padding-left: 2px;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+  height: 37px;
+}
+
+/* Home*/
+.welcomeTxt {
+  color: #4a4a4a;
+  font-weight: 700;
+  float: left;
+  line-height: 22px;
+  font-size: 25px;
+  /* margin-left: 35px; */
+  /* margin-top: 10px; */
+  padding-top: 2rem;
+}
+.currentDate {
+  color: #4a4a4a;
+  font-weight: 700;
+  float: right;
+  line-height: 22px;
+  font-size: 20px;
+  /* margin-right: 80px; */
+  /* margin-top: 10px; */
+  padding-top: 2rem;
+}
+
+/* New Heading*/
+.newsHeading {
+  border-left: 3px solid red;
+  font-size: 22px;
+  font-family: Poppins;
+  padding-left: 3px;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+.sportsHeading {
+  border-left: 3px solid yellow;
+  font-size: 22px;
+  font-family: Poppins;
+  padding-left: 3px;
+  font-weight: 700;
+  color: black;
+}
+.space30 {
+  margin-top: 30px;
+}
+.space10 {
+  margin-top: 10px;
+}
+.space20 {
+  margin-top: 20px;
+}
+.editHeading {
+  border-left: 3px solid#47A1D8;
+  font-size: 22px;
+  font-family: Poppins;
+  padding-left: 3px;
+  font-weight: 700;
+  color: black;
+}
+.editBG {
+  background-color: #f6f6f6;
+}
+.padTop20 {
+  padding-top: 20px;
+}
+/* .rebelBg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url("https://ichef.bbci.co.uk/images/ic/1200x675/p07s9yxt.jpg");
+}
+.rebelParent {
+  position: relative;
+} */

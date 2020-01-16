@@ -1,7 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/Navbar'
+import Navbar from './component/Navbar';
+import Home from './component/Home';
+import Headline from './component/Headline'
+import News from './component/News'
+import Sports from './component/Sports'
+import India from './component/IndiaNews'
+import Rebel from './component/Rebel'
+import Editors from './component/Editors';
 
 function App() {
   return (
@@ -21,6 +28,15 @@ function App() {
         </a>
       </header> */}
       <Navbar />
+      <Home />
+      <Headline />
+      <News />
+      <Sports />
+      <India />
+      <Editors />
+
+
+
     </div>
   );
 }
