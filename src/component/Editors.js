@@ -48,12 +48,13 @@ class Editors extends Component {
                             </div>
                             <div className="col-md-3">
                                 <div className="card">
-                                    <img src="{this.getNewsData.urlToImage}" className="card-img-top" alt="..."></img>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Special title treatment</h5>
-                                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                        <a href="#" className="btn btn-primary">Go somewhere</a>
-                                    </div>
+                                    <div class="card-header latestNewsHeading">
+                                        LATEST BUSINESS NEWS</div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Cras justo odio</li>
+                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                        <li class="list-group-item">Vestibulum at eros</li>
+                                    </ul>
                                 </div>
                             </div>
 

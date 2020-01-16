@@ -79,6 +79,14 @@
 .padTop20 {
   padding-top: 20px;
 }
+.latestNewsHeading {
+  margin: 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  background: #e91802;
+}
 /* .rebelBg {
   position: absolute;
   top: 0;
