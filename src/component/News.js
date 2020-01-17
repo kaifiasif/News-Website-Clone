@@ -33,8 +33,8 @@ class News extends Component {
             })
     }
     render() {
-        let apiResopnse = this.getNewsData();
-        console.log("API Response", apiResopnse)
+        // let apiResopnse = this.getNewsData();
+        // console.log("API Response", apiResopnse)
         return (
             <div className="container space20">
                 <span className="newsHeading"> News </span>
