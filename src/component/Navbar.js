@@ -14,10 +14,9 @@ class Navbar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-link sideArrow" href="#">
-                                    <i className
-                                        ="fa fa-user-circle-o" aria-hidden="true">
-                                        Sign In</i>
+                                <a className="nav-link sideArrow" href="#"> <i className
+                                    ="fa fa-user-circle-o" aria-hidden="true"> </i>
+                                    Sign In
                                 </a>
                             </li>
                             <li className="nav-item active">

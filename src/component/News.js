@@ -15,7 +15,7 @@ class News extends Component {
         // API 9bba2b3d4dff4b66bac166aad57b4a4c
 
         // Make a request for a user with a given ID
-        axios.get('https://newsapi.org/v2/everything?q=bitcoin&from=2019-12-16&sortBy=publishedAt&apiKey=9bba2b3d4dff4b66bac166aad57b4a4c')
+        axios.get('https://newsapi.org/v2/everything?q=apple&from=2020-01-16&to=2020-01-16&sortBy=popularity&apiKey=9bba2b3d4dff4b66bac166aad57b4a4c')
             .then(function (response) {
 
                 // handle success
